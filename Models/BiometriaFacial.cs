@@ -1,0 +1,35 @@
+﻿namespace BiometriaValidacaoApi.Models
+{
+    using MongoDB.Bson;
+    using MongoDB.Bson.Serialization.Attributes;
+    using System;
+
+    namespace BiometriaValidacaoApi
+    {
+        public class BiometriaFacial
+        {
+            [BsonId]
+            [BsonRepresentation(BsonType.ObjectId)]
+            public string? Id { get; set; }
+
+            [BsonElement("imagemBase64")]
+            public string ImagemBase64 { get; set; } = string.Empty;
+
+            [BsonElement("metadados")]
+            public MetadadosImagem Metadados { get; set; } = new MetadadosImagem();
+
+            [BsonElement("validado")]
+            public bool Validado { get; set; }
+
+            [BsonElement("fraudeDetectada")]
+            public bool FraudeDetectada { get; set; }
+
+            [BsonElement("motivoFraude")]
+            public string? MotivoFraude { get; set; }
+
+            [BsonElement("dataProcessamento")]
+            public DateTime DataProcessamento { get; set; } = DateTime.UtcNow;
+        }
+    }
+
+}

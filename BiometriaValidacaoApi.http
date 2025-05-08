@@ -1,0 +1,6 @@
+@BiometriaValidacaoApi_HostAddress = http://localhost:5073
+
+GET {{BiometriaValidacaoApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
