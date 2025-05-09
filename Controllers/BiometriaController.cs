@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BiometriaValidacaoApi.Models;
+using BiometriaValidacaoApi.DTOs;
 using BiometriaValidacaoApi.Models.BiometriaValidacaoApi;
 
 namespace BiometriaValidacaoApi.Controllers
@@ -15,9 +16,9 @@ namespace BiometriaValidacaoApi.Controllers
             _biometriaService = biometriaService;
         }
 
-        // Método para validar a biometria facial
-        [HttpPost("validar-facial")] // Definindo explicitamente o tipo HTTP (POST)
-        public async Task<ActionResult<BiometriaFacial>> ValidarFacial(BiometriaFacialRequest request)
+        // Endpoint para validação facial
+        [HttpPost("validar-facial")]
+        public async Task<ActionResult<BiometriaFacial>> ValidarFacial([FromForm] BiometriaFacialRequest request)
         {
             try
             {
@@ -27,6 +28,21 @@ namespace BiometriaValidacaoApi.Controllers
             catch (Exception ex)
             {
                 return BadRequest($"Erro ao processar a biometria facial: {ex.Message}");
+            }
+        }
+
+        // Endpoint para validação digital
+        [HttpPost("validar-digital")]
+        public async Task<ActionResult<BiometriaDigital>> ValidarDigital([FromForm] BiometriaDigitalRequest request)
+        {
+            try
+            {
+                var resultado = await _biometriaService.ValidarDigitalAsync(request);
+                return Ok(resultado);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Erro ao processar a biometria digital: {ex.Message}");
             }
         }
     }

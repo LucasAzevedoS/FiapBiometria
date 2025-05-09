@@ -1,6 +1,7 @@
 ﻿
 using BiometriaValidacaoApi.Models;
 using BiometriaValidacaoApi.Models.BiometriaValidacaoApi;
+using BiometriaValidacaoApi.DTOs;
 using System;
 using System.IO;
 using System.Threading.Tasks;
@@ -9,6 +10,34 @@ namespace BiometriaValidacaoApi
 {
     public class BiometriaService : IBiometriaService
     {
+        public async Task<ResultadoValidacao> ValidarDigitalAsync(BiometriaDigitalRequest request)
+        {
+            using var memoryStream = new MemoryStream();
+            await request.ImagemDigital.CopyToAsync(memoryStream);
+            var imagemBytes = memoryStream.ToArray();
+            var imagemBase64 = Convert.ToBase64String(imagemBytes);
+
+            var fraudeDetectada = imagemBytes.Length < 30000;
+            var motivoFraude = fraudeDetectada ? "Imagem de digital muito pequena." : null;
+
+            return new BiometriaDigital
+            {
+                ImagemBase64 = imagemBase64,
+                Validado = !fraudeDetectada,
+                FraudeDetectada = fraudeDetectada,
+                MotivoFraude = motivoFraude,
+                Metadados = new MetadadosImagem
+                {
+                    Formato = request.Formato,
+                    TamanhoKb = request.TamanhoKb,
+                    //DataCaptura = request.DataCaptura,
+                    FabricanteDispositivo = request.FabricanteDispositivo,
+                    Localizacao = request.Localizacao
+                },
+                DataProcessamento = DateTime.UtcNow
+            };
+        }
+
         public async Task<BiometriaFacial> ValidarFacialAsync(BiometriaFacialRequest request)
         {
             using var memoryStream = new MemoryStream();
@@ -41,6 +70,7 @@ namespace BiometriaValidacaoApi
             // Retorne diretamente o objeto BiometriaFacial
             return biometria;
         }
+
     }
 
 }
