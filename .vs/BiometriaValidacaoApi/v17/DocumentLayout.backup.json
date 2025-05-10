@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\",
+  "WorkspaceRootPath": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\repositories\\fakemongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:repositories\\fakemongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\repositories\\imongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:repositories\\imongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\repositories\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:repositories\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\controllers\\biometriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:controllers\\biometriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\services\\biometriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:services\\biometriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\services\\ibiometriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:services\\ibiometriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\models\\resultadovalidacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:models\\resultadovalidacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\models\\biometriafacial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:models\\biometriafacial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\dtos\\biometriafacialrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\dtos\\biometriafacialrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:dtos\\biometriafacialrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\models\\metadadosimagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\repositories\\fakemongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:repositories\\fakemongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\repositories\\imongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:repositories\\imongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\repositories\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:repositories\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\controllers\\biometriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:controllers\\biometriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\services\\biometriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:services\\biometriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\services\\ibiometriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:services\\ibiometriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\models\\resultadovalidacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:models\\resultadovalidacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\models\\biometriafacial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:models\\biometriafacial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\models\\metadadosimagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:models\\metadadosimagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\lucas\\desktop\\biometriavalidacaoapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|c:\\users\\riang\\onedrive\\documentos\\agoravai\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{085DD496-DA91-4873-AFBA-AC0853918BF2}|BiometriaValidacaoApi.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,49 +67,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FakeMongoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Repositories\\FakeMongoRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\FakeMongoRepository.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Repositories\\FakeMongoRepository.cs",
-              "RelativeToolTip": "Repositories\\FakeMongoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:10:24.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BiometriaController.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Controllers\\BiometriaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BiometriaController.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Controllers\\BiometriaController.cs",
-              "RelativeToolTip": "Controllers\\BiometriaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:10:18.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Program.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T20:10:57.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T20:10:57.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IBiometriaService.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Services\\IBiometriaService.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Services\\IBiometriaService.cs",
               "RelativeDocumentMoniker": "Services\\IBiometriaService.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Services\\IBiometriaService.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Services\\IBiometriaService.cs",
               "RelativeToolTip": "Services\\IBiometriaService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -117,24 +90,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MongoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Repositories\\MongoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Repositories\\MongoRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\MongoRepository.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Repositories\\MongoRepository.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Repositories\\MongoRepository.cs",
               "RelativeToolTip": "Repositories\\MongoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T20:33:35.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T20:33:35.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ResultadoValidacao.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Models\\ResultadoValidacao.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Models\\ResultadoValidacao.cs",
               "RelativeDocumentMoniker": "Models\\ResultadoValidacao.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Models\\ResultadoValidacao.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Models\\ResultadoValidacao.cs",
               "RelativeToolTip": "Models\\ResultadoValidacao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -142,11 +114,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BiometriaFacial.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Models\\BiometriaFacial.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Models\\BiometriaFacial.cs",
               "RelativeDocumentMoniker": "Models\\BiometriaFacial.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Models\\BiometriaFacial.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Models\\BiometriaFacial.cs",
               "RelativeToolTip": "Models\\BiometriaFacial.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,24 +126,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IMongoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Repositories\\IMongoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Repositories\\IMongoRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IMongoRepository.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Repositories\\IMongoRepository.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Repositories\\IMongoRepository.cs",
               "RelativeToolTip": "Repositories\\IMongoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:10:25.47Z",
+              "WhenOpened": "2025-05-08T16:10:25.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BiometriaFacialRequest.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\DTOs\\BiometriaFacialRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\BiometriaFacialRequest.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\DTOs\\BiometriaFacialRequest.cs",
+              "RelativeToolTip": "DTOs\\BiometriaFacialRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T20:07:50.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "BiometriaController.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Controllers\\BiometriaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BiometriaController.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Controllers\\BiometriaController.cs",
+              "RelativeToolTip": "Controllers\\BiometriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T16:10:18.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FakeMongoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Repositories\\FakeMongoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\FakeMongoRepository.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Repositories\\FakeMongoRepository.cs",
+              "RelativeToolTip": "Repositories\\FakeMongoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T16:10:24.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BiometriaService.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Services\\BiometriaService.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Services\\BiometriaService.cs",
               "RelativeDocumentMoniker": "Services\\BiometriaService.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Services\\BiometriaService.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Services\\BiometriaService.cs",
               "RelativeToolTip": "Services\\BiometriaService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,23 +187,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BiometriaFacialRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\DTOs\\BiometriaFacialRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\BiometriaFacialRequest.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\DTOs\\BiometriaFacialRequest.cs",
-              "RelativeToolTip": "DTOs\\BiometriaFacialRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T20:07:50.066Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "MetadadosImagem.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Models\\MetadadosImagem.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Models\\MetadadosImagem.cs",
               "RelativeDocumentMoniker": "Models\\MetadadosImagem.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Models\\MetadadosImagem.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Models\\MetadadosImagem.cs",
               "RelativeToolTip": "Models\\MetadadosImagem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -205,9 +201,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Desktop\\BiometriaValidacaoApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

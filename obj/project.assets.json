@@ -1035,23 +1035,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lazevedo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\riang\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lazevedo\\Desktop\\FiapBiometria\\BiometriaValidacaoApi.csproj",
+      "projectUniqueName": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\BiometriaValidacaoApi.csproj",
       "projectName": "BiometriaValidacaoApi",
-      "projectPath": "C:\\Users\\lazevedo\\Desktop\\FiapBiometria\\BiometriaValidacaoApi.csproj",
-      "packagesPath": "C:\\Users\\lazevedo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lazevedo\\Desktop\\FiapBiometria\\obj\\",
+      "projectPath": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\BiometriaValidacaoApi.csproj",
+      "packagesPath": "C:\\Users\\riang\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lazevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\riang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1071,7 +1072,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -1105,7 +1112,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

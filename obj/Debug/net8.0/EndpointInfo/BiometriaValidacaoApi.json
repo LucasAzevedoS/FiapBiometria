@@ -10,63 +10,56 @@
         "tags": [
           "Biometria"
         ],
-        "parameters": [
-          {
-            "name": "Formato",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "TamanhoKb",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "type": "number",
-              "format": "double"
-            }
-          },
-          {
-            "name": "DataCaptura",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "FabricanteDispositivo",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "Localizacao",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
         "requestBody": {
           "content": {
             "multipart/form-data": {
               "schema": {
                 "required": [
-                  "Imagem"
+                  "Formato",
+                  "Imagem",
+                  "TamanhoKb"
                 ],
                 "type": "object",
                 "properties": {
                   "Imagem": {
                     "type": "string",
                     "format": "binary"
+                  },
+                  "Formato": {
+                    "type": "string"
+                  },
+                  "TamanhoKb": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "DataCaptura": {
+                    "type": "string"
+                  },
+                  "FabricanteDispositivo": {
+                    "type": "string"
+                  },
+                  "Localizacao": {
+                    "type": "string"
                   }
                 }
               },
               "encoding": {
                 "Imagem": {
+                  "style": "form"
+                },
+                "Formato": {
+                  "style": "form"
+                },
+                "TamanhoKb": {
+                  "style": "form"
+                },
+                "DataCaptura": {
+                  "style": "form"
+                },
+                "FabricanteDispositivo": {
+                  "style": "form"
+                },
+                "Localizacao": {
                   "style": "form"
                 }
               }
@@ -90,6 +83,87 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/BiometriaFacial"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Biometria/validar-digital": {
+      "post": {
+        "tags": [
+          "Biometria"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ImagemDigital": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Formato": {
+                    "type": "string"
+                  },
+                  "TamanhoKb": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "DataCaptura": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "FabricanteDispositivo": {
+                    "type": "string"
+                  },
+                  "Localizacao": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "ImagemDigital": {
+                  "style": "form"
+                },
+                "Formato": {
+                  "style": "form"
+                },
+                "TamanhoKb": {
+                  "style": "form"
+                },
+                "DataCaptura": {
+                  "style": "form"
+                },
+                "FabricanteDispositivo": {
+                  "style": "form"
+                },
+                "Localizacao": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BiometriaDigital"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BiometriaDigital"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BiometriaDigital"
                 }
               }
             }
@@ -139,6 +213,61 @@
   },
   "components": {
     "schemas": {
+      "BiometriaDigital": {
+        "type": "object",
+        "properties": {
+          "usuarioId": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "motivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomeArquivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "tamanhoBytes": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "imagemBase64": {
+            "type": "string",
+            "nullable": true
+          },
+          "metadados": {
+            "$ref": "#/components/schemas/MetadadosImagem"
+          },
+          "validado": {
+            "type": "boolean"
+          },
+          "fraudeDetectada": {
+            "type": "boolean"
+          },
+          "motivoFraude": {
+            "type": "string",
+            "nullable": true
+          },
+          "dataProcessamento": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "BiometriaFacial": {
         "type": "object",
         "properties": {

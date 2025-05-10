@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "GfMK2BXczMNksmvp+Sa/3Q6ZFE7Qr62tVmRJPQLA0pw=",
+  "Hash": "+NUr+PlHqA/1THovYlrEaHJF8tFYiENvmGk1q4h7MnY=",
   "Source": "BiometriaValidacaoApi",
   "BasePath": "_content/BiometriaValidacaoApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
