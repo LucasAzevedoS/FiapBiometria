@@ -6,9 +6,13 @@ namespace BiometriaValidacaoApi.Models
 {
     public class BiometriaDigital : ResultadoValidacao
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string? Id { get; set; }
+        //[BsonId]
+
+        //[BsonRepresentation(BsonType.ObjectId)]
+        //public string? Id { get; set; }
+
+        [BsonElement("tipoBiometria")]
+        public string TipoBiometria { get; set; } 
 
         [BsonElement("imagemBase64")]
         public string ImagemBase64 { get; set; } = string.Empty;

@@ -5,11 +5,19 @@ using BiometriaValidacaoApi.DTOs;
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using NuGet.Protocol.Core.Types;
 
 namespace BiometriaValidacaoApi
 {
     public class BiometriaService : IBiometriaService
     {
+
+        private readonly IMongoRepository _repository;
+
+        public BiometriaService(IMongoRepository repository)
+        {
+            _repository = repository;
+        }
         public async Task<ResultadoValidacao> ValidarDigitalAsync(BiometriaDigitalRequest request)
         {
             using var memoryStream = new MemoryStream();
@@ -20,7 +28,7 @@ namespace BiometriaValidacaoApi
             var fraudeDetectada = imagemBytes.Length < 30000;
             var motivoFraude = fraudeDetectada ? "Imagem de digital muito pequena." : null;
 
-            return new BiometriaDigital
+            var resultado = new BiometriaDigital
             {
                 ImagemBase64 = imagemBase64,
                 Validado = !fraudeDetectada,
@@ -30,13 +38,17 @@ namespace BiometriaValidacaoApi
                 {
                     Formato = request.Formato,
                     TamanhoKb = request.TamanhoKb,
-                    //DataCaptura = request.DataCaptura,
                     FabricanteDispositivo = request.FabricanteDispositivo,
                     Localizacao = request.Localizacao
                 },
                 DataProcessamento = DateTime.UtcNow
             };
+
+            await _repository.SalvarRegistroAsync(resultado); 
+
+            return resultado;
         }
+
 
         public async Task<BiometriaFacial> ValidarFacialAsync(BiometriaFacialRequest request)
         {
@@ -45,11 +57,9 @@ namespace BiometriaValidacaoApi
             var imagemBytes = memoryStream.ToArray();
             var imagemBase64 = Convert.ToBase64String(imagemBytes);
 
-            // Simulação de lógica de validação (substitua com IA ou heurística real depois)
-            var fraudeDetectada = imagemBytes.Length < 50000; // Exemplo: fraude se muito pequeno
+            var fraudeDetectada = imagemBytes.Length < 50000;
             var motivoFraude = fraudeDetectada ? "Imagem muito pequena para validação." : null;
 
-            // Criação do objeto BiometriaFacial
             var biometria = new BiometriaFacial
             {
                 ImagemBase64 = imagemBase64,
@@ -67,7 +77,8 @@ namespace BiometriaValidacaoApi
                 DataProcessamento = DateTime.UtcNow
             };
 
-            // Retorne diretamente o objeto BiometriaFacial
+            await _repository.SalvarRegistroAsync(biometria); 
+
             return biometria;
         }
 

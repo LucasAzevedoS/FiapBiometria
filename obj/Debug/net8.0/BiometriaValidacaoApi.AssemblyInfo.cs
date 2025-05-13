@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BiometriaValidacaoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+100c5f7e3a3a7fcc0952041c53b11e874b5917c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44674c7277897ba73282ce96fb22a336a9246f54")]
 [assembly: System.Reflection.AssemblyProductAttribute("BiometriaValidacaoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BiometriaValidacaoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

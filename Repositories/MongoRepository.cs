@@ -1,22 +1,31 @@
 ﻿using BiometriaValidacaoApi.Models;
 using MongoDB.Driver;
 
-namespace BiometriaValidacaoApi
+namespace BiometriaValidacaoApi.Repositories
 {
     public class MongoRepository : IMongoRepository
     {
-        private readonly IMongoCollection<ResultadoValidacao> _collection;
+        private readonly IMongoDatabase _database;
 
         public MongoRepository(IConfiguration config)
         {
-            var client = new MongoClient(config["MongoSettings:ConnectionString"]);
-            var database = client.GetDatabase(config["MongoSettings:Database"]);
-            _collection = database.GetCollection<ResultadoValidacao>("registros_validacao");
+            var connectionString = config["MongoSettings:ConnectionString"];
+            if (string.IsNullOrWhiteSpace(connectionString))
+                throw new ArgumentException("Configuração de MongoSettings:ConnectionString não encontrada.");
+
+            var databaseName = config["MongoSettings:Database"];
+            if (string.IsNullOrWhiteSpace(databaseName))
+                throw new ArgumentException("Configuração de MongoSettings:Database não encontrada.");
+
+            var client = new MongoClient(connectionString);
+            _database = client.GetDatabase(databaseName);
         }
 
-        public async Task SalvarRegistroAsync(ResultadoValidacao resultado)
+        public async Task SalvarRegistroAsync<T>(T resultado, string? nomeColecao = null)
         {
-            await _collection.InsertOneAsync(resultado);
+            var nome = nomeColecao ?? typeof(T).Name; 
+            var collection = _database.GetCollection<T>(nome.ToLowerInvariant()); 
+            await collection.InsertOneAsync(resultado);
         }
     }
 }

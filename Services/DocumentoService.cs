@@ -1,15 +1,30 @@
-public class DocumentoService
-{
-  public ResultadoValidacaoDocumento ValidarDocumento(Documento documento)
-  {
-    // Simulação: valida sempre como válido se nome não for vazio
-    var valido = !string.IsNullOrWhiteSpace(documento.Nome);
+using BiometriaValidacaoApi.Models;
+using BiometriaValidacaoApi.Repositories;
+using System;
 
-    return new ResultadoValidacaoDocumento
+namespace BiometriaValidacaoApi.Services
+{
+    public class DocumentoService
     {
-      DocumentoValido = valido,
-      MotivoInvalidez = valido ? "" : "Nome inválido ou ausente.",
-      DataProcessamento = DateTime.UtcNow
-    };
-  }
+        private readonly IDocumentoRepository _repo;
+
+        public DocumentoService(IDocumentoRepository repo)
+        {
+            _repo = repo;
+        }
+
+        public async Task<ResultadoValidacaoDocumento> ValidarDocumentoAsync(Documento documento)
+        {
+            var valido = !string.IsNullOrWhiteSpace(documento.Nome);
+            var resultado = new ResultadoValidacaoDocumento
+            {
+                DocumentoValido = valido,
+                MotivoInvalidez = valido ? "" : "Nome inválido ou ausente.",
+                DataProcessamento = DateTime.UtcNow
+            };
+
+            await _repo.SalvarAsync(resultado);
+            return resultado;
+        }
+    }
 }

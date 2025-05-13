@@ -171,6 +171,57 @@
         }
       }
     },
+    "/api/Documento/validar-documento": {
+      "post": {
+        "tags": [
+          "Documento"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ImagemDocumento": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Nome": {
+                    "type": "string"
+                  },
+                  "NumeroDocumento": {
+                    "type": "string"
+                  },
+                  "DataNascimento": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "encoding": {
+                "ImagemDocumento": {
+                  "style": "form"
+                },
+                "Nome": {
+                  "style": "form"
+                },
+                "NumeroDocumento": {
+                  "style": "form"
+                },
+                "DataNascimento": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -216,10 +267,6 @@
       "BiometriaDigital": {
         "type": "object",
         "properties": {
-          "usuarioId": {
-            "type": "string",
-            "nullable": true
-          },
           "tipo": {
             "type": "string",
             "nullable": true
@@ -240,7 +287,7 @@
             "type": "integer",
             "format": "int64"
           },
-          "id": {
+          "tipoBiometria": {
             "type": "string",
             "nullable": true
           },
@@ -271,7 +318,27 @@
       "BiometriaFacial": {
         "type": "object",
         "properties": {
-          "id": {
+          "tipo": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "motivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomeArquivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "tamanhoBytes": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "tipoBiometria": {
             "type": "string",
             "nullable": true
           },

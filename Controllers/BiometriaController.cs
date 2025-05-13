@@ -16,7 +16,7 @@ namespace BiometriaValidacaoApi.Controllers
             _biometriaService = biometriaService;
         }
 
-        // Endpoint para validação facial
+        
         [HttpPost("validar-facial")]
         public async Task<ActionResult<BiometriaFacial>> ValidarFacial([FromForm] BiometriaFacialRequest request)
         {
@@ -31,7 +31,7 @@ namespace BiometriaValidacaoApi.Controllers
             }
         }
 
-        // Endpoint para validação digital
+        
         [HttpPost("validar-digital")]
         public async Task<ActionResult<BiometriaDigital>> ValidarDigital([FromForm] BiometriaDigitalRequest request)
         {

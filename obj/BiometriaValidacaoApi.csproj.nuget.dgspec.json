@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\BiometriaValidacaoApi.csproj": {}
+    "C:\\Users\\Lucas\\Desktop\\FiapBiometria\\BiometriaValidacaoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\BiometriaValidacaoApi.csproj": {
+    "C:\\Users\\Lucas\\Desktop\\FiapBiometria\\BiometriaValidacaoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\BiometriaValidacaoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\FiapBiometria\\BiometriaValidacaoApi.csproj",
         "projectName": "BiometriaValidacaoApi",
-        "projectPath": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\BiometriaValidacaoApi.csproj",
-        "packagesPath": "C:\\Users\\riang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\riang\\OneDrive\\Documentos\\AgoraVai\\obj\\",
+        "projectPath": "C:\\Users\\Lucas\\Desktop\\FiapBiometria\\BiometriaValidacaoApi.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucas\\Desktop\\FiapBiometria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\riang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[3.4.0, )"
+            },
+            "NuGet.Protocol": {
+              "target": "Package",
+              "version": "[6.13.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

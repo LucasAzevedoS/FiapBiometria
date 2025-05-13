@@ -4,6 +4,6 @@ namespace BiometriaValidacaoApi
 {
     public interface IMongoRepository
     {
-        Task SalvarRegistroAsync(ResultadoValidacao resultado);
+        Task SalvarRegistroAsync<T>(T resultado, string? nomeColecao = null);
     }
 }

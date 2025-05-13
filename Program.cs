@@ -1,7 +1,9 @@
 
 
 using BiometriaValidacaoApi;
-using BiometriaValidacaoAPI;
+using BiometriaValidacaoApi.Repositories;
+using BiometriaValidacaoApi.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,9 +12,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Registro do serviço Fake
-builder.Services.AddScoped<IMongoRepository, FakeMongoRepository>(); // <= Aqui!
-builder.Services.AddScoped<IBiometriaService, BiometriaService>();   // <= (caso ainda não tenha adicionado)
+
+
+builder.Services.AddScoped<IMongoRepository, MongoRepository>();
+builder.Services.AddScoped<IBiometriaService, BiometriaService>();
+builder.Services.AddScoped<IDocumentoRepository, DocumentoRepository>();
+builder.Services.AddScoped<DocumentoService>();
 
 var app = builder.Build();
 
